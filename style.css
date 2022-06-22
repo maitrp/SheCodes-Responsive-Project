@@ -1,16 +1,18 @@
 :root {
-  --primary-color: #6c63ff;
-  --secondary-color: #f5f2fe;
-  --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+  --primary-color: #7e3b67;
+  --secondary-color: #dcfcf5;
+  --box-shadow: 2px 5px 20px rgba(77, 77, 1, 0.3);
 }
 body {
+  background: var(--secondary-color);
   margin: 100px auto;
+  color: var(--primary-color);
 }
 h1,
 h2,
 h3 {
+  color: var(--primary-color);
   text-align: center;
-  margin: 0;
 }
 
 h1 {
@@ -18,7 +20,7 @@ h1 {
 }
 
 h2 {
-  font-size: 48px;
+  font-size: 40px;
 }
 
 h3 {
@@ -26,9 +28,23 @@ h3 {
   opacity: 0.7;
 }
 
+img {
+  border-radius: 10px;
+  box-shadow: var(--box-shadow);
+}
+
+nav a {
+  color: var(--secondary-color) !important;
+}
+.summary-section {
+  box-shadow: var(--box-shadow);
+  border-radius: 10px;
+  max-width: 600px;
+  margin: 0 auto;
+}
 .navigation-links {
   display: flex;
-  margin: 40px auto 48px auto;
+  margin: 10px auto;
   justify-content: center;
 }
 
@@ -39,11 +55,14 @@ h3 {
   text-decoration: none;
   text-transform: capitalize;
 }
+.navigation-links a:hover {
+  color: gray;
+}
 
 .contact-link {
   background: var(--primary-color);
   box-shadow: var(--box-shadow);
-  color: white;
+  color: var(--secondary-color);
 }
 
 .about-link {
@@ -86,7 +105,7 @@ h3 {
 }
 .container button {
   background-color: var(--primary-color) !important;
-  color: white !important;
+  color: var(--secondary-color) !important;
   padding: 20px 15px !important;
   box-shadow: var(--box-shadow);
   border-radius: 4px;
