@@ -1,5 +1,5 @@
 :root {
-  --primary-color: #7e3b67; /* #5e175e #6d348f*/
+  --primary-color: #6d348f; /* #5e175e #7e3b67 #6d348f*/
   --secondary-color: #cdfeff; /* #dcfcf5 #c5f0e5*/
   --base-color: rgb(205, 254, 255, 0.9);
   --hover-color: #aef8f9;
@@ -41,7 +41,6 @@ h3 {
 }
 
 .intro-section {
-  color: #6d348f;
   max-width: 1200px;
   margin-bottom: 50px;
 }
@@ -175,6 +174,10 @@ i {
     font-size: 22px;
   }
 
+  .project p {
+    font-size: 14px;
+  }
+
   .avatar {
     margin-bottom: 20px;
   }
@@ -182,6 +185,7 @@ i {
   .about-section {
     margin: 0 20px;
     padding: 20px;
+    text-align: center;
   }
 
   .column-reverse {
