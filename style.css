@@ -175,7 +175,7 @@ i {
   }
 
   .project p {
-    font-size: 14px;
+    font-size: 16px;
   }
 
   .avatar {
@@ -184,8 +184,12 @@ i {
 
   .about-section {
     margin: 0 20px;
-    padding: 20px;
+    padding: 20px 10px;
     text-align: center;
+  }
+
+  .projects {
+    padding: auto 5px;
   }
 
   .column-reverse {
